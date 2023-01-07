@@ -1,0 +1,68 @@
+h3{
+    text-align: center;
+  }
+  .design
+  {
+    background-color:grey ;
+    border: 1px solid black;
+    margin:1px;
+  }
+  .designmenu
+  {
+    background-color:grey ;
+    border: 1px solid black;
+    display: inline-flex;
+    margin:5px;
+  }
+  .b{
+    float: right;
+  }
+  #back{
+    float: left;
+    background-color: red;
+  }
+  .cen{
+    text-align: center;
+  }
+  .a{
+  margin-bottom:5px;
+  }
+  .header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 30px 30px;
+  }
+  .pro
+  {
+float: right;
+  }
+  
+  .row{
+    width: 100%;
+  }
+  *{
+    box-sizing:border-box;
+    padding:0px;
+    margin: 0px;
+  }
+  @media(min-width:992px){
+    .col-ds-4{
+      width:33%;
+      float: left;
+    }
+  }
+  @media(min-width:778px) and (max-width:991px){
+    .col-at-6 , .col-at1-12{
+      float:left;
+    }
+    .col-at-6{
+      width:49.5%;
+    }
+    .col-at1-12{
+      width:100%;
+    }
+    .col-at-9{width:49.5%;
+      float:right ;
+    }
+  }
+  
